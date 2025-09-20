@@ -69,12 +69,6 @@ The analysis is based on a comprehensive dataset covering user demographics, usa
 
 ### Step-by-Step Setup
 
-1. **Clone the repository** (if applicable) or download the notebook:
-   ```bash
-   # If using git
-   git clone <repository-url>
-   cd mobile-money-analysis
-   ```
 
 2. **Install required packages**:
    ```bash
@@ -172,7 +166,7 @@ prediction = rf_model.predict(user_input)
   - Cluster 1: High-engagement users with strong positive indicators
 
 ### Prediction Performance
-- **Random Forest Accuracy**: ~85% on test set
+- **Random Forest Accuracy**: 91% on test set
 - **Key Predictive Features**:
   1. Usage Frequency (most important)
   2. Trust Level
@@ -206,21 +200,9 @@ prediction = rf_model.predict(user_input)
 - **Python 3.8+** - Programming language
 - **Git** - Version control
 
-## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-### Development Guidelines
-- Follow PEP 8 style guidelines
-- Add docstrings to functions
-- Include unit tests for new features
-- Update documentation as needed
 
 ## 📄 License
 
